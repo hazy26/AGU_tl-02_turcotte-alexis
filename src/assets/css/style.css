@@ -1,3 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bounce{
+    animation: bounce 5s infinite;
+}
+
+.flash{
+    animation: flash 6s infinite;
+}
+
+.flip{
+    animation: flip 4s infinite;
+}
+
+.heartBeat{
+    animation: heartBeat 5s infinite;
+}
+
+.pulse{
+    animation: pulse 3s infinite;
+}
+
+.rubberBand{
+    animation: rubberBand 5s infinite;
+}
+
+.tada{
+    animation: tada 6s infinite;
+}
+
+.shakeX{
+    animation: shakeX 8s infinite;
+}
+
+.swing{
+    animation: swing 3s infinite;
+}
