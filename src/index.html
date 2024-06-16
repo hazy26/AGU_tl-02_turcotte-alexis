@@ -1,10 +1,10 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en" class="scroll-smooth scroll-pt-24">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TL02 - Animate.css</title>
-    <link rel="icon" type="image/svg" href="./assets/icons/favicon.svg">
+    <link rel="icon" type="image/svg" href="./assets/icons/favicon.svg" />
     <script type="module" src="./assets/js/main.js"></script>
     <script src="./assets/js/nav.js" defer></script>
     <script src="https://www.rgraph.net/libraries/RGraph.svg.common.core.js"></script>
@@ -16,62 +16,232 @@
     <script src="https://www.rgraph.net/libraries/RGraph.svg.pie.js"></script>
   </head>
   <body class="bg-blue-100 items-center flex flex-col relative">
-    <header class="border-b border-blue-950 flex justify-center px-6 py-6 w-full sticky top-0 left-0 z-20 backdrop-blur-lg">
+    <header
+      class="border-b border-blue-950 flex justify-center px-6 py-6 w-full sticky top-0 left-0 z-20 backdrop-blur-lg"
+    >
       <div class="flex items-center justify-between max-w-7xl w-full relative">
         <i>
-          <svg class="icon-menu cursor-pointer hover:scale-90" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#000"><path d="M120-240v-66.67h720V-240H120Zm0-206.67v-66.66h720v66.66H120Zm0-206.66V-720h720v66.67H120Z"/></svg>
+          <svg
+            class="icon-menu cursor-pointer hover:scale-90"
+            xmlns="http://www.w3.org/2000/svg"
+            height="40px"
+            viewBox="0 -960 960 960"
+            width="40px"
+            fill="#000"
+          >
+            <path
+              d="M120-240v-66.67h720V-240H120Zm0-206.67v-66.66h720v66.66H120Zm0-206.66V-720h720v66.67H120Z"
+            />
+          </svg>
         </i>
-        <h1 class="tada font-normal text-base tracking-wider text-blue-950"><a class="hover:underline active:underline" href="./index.html">TL02 - Animate.css</a></h1>
-        <nav class="hidden fixed top-20 left-0 w-full bg-blue-950/60 text-blue-100 h-dvh w-full">
+        <h1 class="tada font-normal text-base tracking-wider text-blue-950">
+          <a class="hover:underline active:underline" href="./index.html"
+            >TL02 - Animate.css</a
+          >
+        </h1>
+        <nav
+          class="hidden fixed top-20 left-0 w-full bg-blue-950/60 text-blue-100 h-dvh w-full"
+        >
           <ul class="flex flex-col w-full bg-blue-700">
-            <li class="flex"><a class="border-b border-blue-950 p-4 w-full font-base text-lg tracking-wider hover:bg-blue-500" href="#finding-dory">1. Finding Dory</a></li>
-            <li class="flex"><a class="border-b border-blue-950 p-4 w-full font-base text-lg tracking-wider hover:bg-blue-500" href="#tarzan">2. The Legend of Tarzan</a></li>
-            <li class="flex"><a class="border-b border-blue-950 p-4 w-full font-base text-lg tracking-wider hover:bg-blue-500" href="#purge">3. The Purge: Election Year</a></li>
-            <li class="flex"><a class="border-b border-blue-950 p-4 w-full font-base text-lg tracking-wider hover:bg-blue-500" href="#bfg">4. The BFG</a></li>
-            <li class="flex"><a class="border-b border-blue-950 p-4 w-full font-base text-lg tracking-wider hover:bg-blue-500" href="#independence-day">5. Independence Day: Resurgence</a></li>
-            <li class="flex"><a class="border-b border-blue-950 p-4 w-full font-base text-lg tracking-wider hover:bg-blue-500" href="#central">6. Central Intelligence</a></li>
-            <li class="flex"><a class="border-b border-blue-950 p-4 w-full font-base text-lg tracking-wider hover:bg-blue-500" href="#shallows">7. The Shallows</a></li>
-            <li class="flex"><a class="border-b border-blue-950 p-4 w-full font-base text-lg tracking-wider hover:bg-blue-500" href="#free-state">8. Free State of Jones</a></li>
-            <li class="flex"><a class="border-b border-blue-950 p-4 w-full font-base text-lg tracking-wider hover:bg-blue-500" href="#conjuring">9. The Conjuring 2</a></li>
-            <li class="flex"><a class="border-b border-blue-950 p-4 w-full font-base text-lg tracking-wider hover:bg-blue-500" href="#now-you-see-me">10. Now You See Me 2</a></li>
+            <li class="flex">
+              <a
+                class="border-b border-blue-950 p-4 w-full font-base text-lg tracking-wider hover:bg-blue-500"
+                href="#finding-dory"
+                >1. Finding Dory</a
+              >
+            </li>
+            <li class="flex">
+              <a
+                class="border-b border-blue-950 p-4 w-full font-base text-lg tracking-wider hover:bg-blue-500"
+                href="#tarzan"
+                >2. The Legend of Tarzan</a
+              >
+            </li>
+            <li class="flex">
+              <a
+                class="border-b border-blue-950 p-4 w-full font-base text-lg tracking-wider hover:bg-blue-500"
+                href="#purge"
+                >3. The Purge: Election Year</a
+              >
+            </li>
+            <li class="flex">
+              <a
+                class="border-b border-blue-950 p-4 w-full font-base text-lg tracking-wider hover:bg-blue-500"
+                href="#bfg"
+                >4. The BFG</a
+              >
+            </li>
+            <li class="flex">
+              <a
+                class="border-b border-blue-950 p-4 w-full font-base text-lg tracking-wider hover:bg-blue-500"
+                href="#independence-day"
+                >5. Independence Day: Resurgence</a
+              >
+            </li>
+            <li class="flex">
+              <a
+                class="border-b border-blue-950 p-4 w-full font-base text-lg tracking-wider hover:bg-blue-500"
+                href="#central"
+                >6. Central Intelligence</a
+              >
+            </li>
+            <li class="flex">
+              <a
+                class="border-b border-blue-950 p-4 w-full font-base text-lg tracking-wider hover:bg-blue-500"
+                href="#shallows"
+                >7. The Shallows</a
+              >
+            </li>
+            <li class="flex">
+              <a
+                class="border-b border-blue-950 p-4 w-full font-base text-lg tracking-wider hover:bg-blue-500"
+                href="#free-state"
+                >8. Free State of Jones</a
+              >
+            </li>
+            <li class="flex">
+              <a
+                class="border-b border-blue-950 p-4 w-full font-base text-lg tracking-wider hover:bg-blue-500"
+                href="#conjuring"
+                >9. The Conjuring 2</a
+              >
+            </li>
+            <li class="flex">
+              <a
+                class="border-b border-blue-950 p-4 w-full font-base text-lg tracking-wider hover:bg-blue-500"
+                href="#now-you-see-me"
+                >10. Now You See Me 2</a
+              >
+            </li>
           </ul>
         </nav>
-      </div> 
+      </div>
     </header>
     <main class="bg-blue-100 flex flex-col font-light gap-6 w-full z-10">
       <div class="bg-blue-950 flex flex-col px-12 py-36">
         <div class="pulse flex flex-col gap-6 max-w-6xl self-center w-full">
-          <h2 class="font-medium text-blue-100 text-4xl leading-tight tracking-wide">Top 10 du box office (États-Unis)</h2>
-          <h3 class="font-normal text-blue-400 text-2xl leading-tight">Semaine du 1er juillet au 7 juillet 2016</h3>
+          <h2
+            class="font-medium text-blue-100 text-4xl leading-tight tracking-wide"
+          >
+            Top 10 du box office (États-Unis)
+          </h2>
+          <h3 class="font-normal text-blue-400 text-2xl leading-tight">
+            Semaine du 1er juillet au 7 juillet 2016
+          </h3>
         </div>
       </div>
-      <ul class="gap-32 grid grid-cols-1 md:grid-cols-2 px-12 py-16 max-w-6xl self-center">   
-        <li id="finding-dory" class="border-b border-blue-950 pb-12 flex flex-col text-blue-950">
-          <span class="heartBeat w-fit font-semibold py-2 text-blue-950 text-3xl">1.</span>
-          <h4 class="rubberBand font-medium text-2xl tracking-wider w-fit bg-blue-950 text-blue-100 px-2 py-1">Finding Dory</h4>
+      <ul
+        class="gap-32 grid grid-cols-1 md:grid-cols-2 px-12 py-16 max-w-6xl self-center"
+      >
+        <li
+          id="finding-dory"
+          class="border-b border-blue-950 pb-12 flex flex-col text-blue-950"
+        >
+          <span
+            class="heartBeat w-fit font-semibold py-2 text-blue-950 text-3xl"
+            >1.</span
+          >
+          <h4
+            class="rubberBand font-medium text-2xl tracking-wider w-fit bg-blue-950 text-blue-100 px-2 py-1"
+          >
+            Finding Dory
+          </h4>
           <figure class="flex flex-col">
             <picture>
-              <img class="max-h-96 py-6" src="https://m.media-amazon.com/images/M/MV5BYWVmYTcwZDYtYzNmNC00M2U2LWFjZWYtOWRlY2NiNjc5ZjdiXkEyXkFqcGdeQXVyNjY5Mjg5MjA@._V1_FMjpg_UX1000_.jpg" alt="Image de cover du film: Finding Dory.">
+              <img
+                class="max-h-96 py-6"
+                src="https://m.media-amazon.com/images/M/MV5BYWVmYTcwZDYtYzNmNC00M2U2LWFjZWYtOWRlY2NiNjc5ZjdiXkEyXkFqcGdeQXVyNjY5Mjg5MjA@._V1_FMjpg_UX1000_.jpg"
+                alt="Image de cover du film: Finding Dory."
+              />
             </picture>
           </figure>
           <div class="flex flex-col gap-12 text-base">
-            <a class="pulse bg-blue-500 border border-blue-950 font-light rounded-md text-blue-100 text-base w-fit py-1 px-6 tracking-wide" href="https://www.youtube.com/watch?v=JhvrQeY3doI&t=2s&ab_channel=Pixar" target="_blank">Bande Annonce</a>
+            <a
+              class="pulse bg-blue-500 border border-blue-950 font-light rounded-md text-blue-100 text-base w-fit py-1 px-6 tracking-wide"
+              href="https://www.youtube.com/watch?v=JhvrQeY3doI&t=2s&ab_channel=Pixar"
+              target="_blank"
+              >Bande Annonce</a
+            >
             <div class="items-center grid gap-8">
               <i class="bounce">
-                <img class="py-2 w-20" src="https://docs-assets.developer.apple.com/published/fa54f9213eb6084c458c9b83f1f5aa3a/movie-rating-icons-united-states-1@2x.png" alt="Logo de classification de film 'general'.">
+                <img
+                  class="py-2 w-20"
+                  src="https://docs-assets.developer.apple.com/published/fa54f9213eb6084c458c9b83f1f5aa3a/movie-rating-icons-united-states-1@2x.png"
+                  alt="Logo de classification de film 'general'."
+                />
               </i>
               <p class="text-xl text-blue--950">Animation, Aventure, Comédie</p>
-              <div id="movieTime-1" style="height: 120px; width: 120px;" class="flip">
-                <script src="./assets/js/dory.js"></script>
+              <div
+                id="movieTime-1"
+                style="height: 120px; width: 120px"
+                class="flip"
+              >
+                <script>
+                  horseshoe = new RGraph.SVG.Horseshoe({
+                    id: "movieTime-1",
+                    min: 0,
+                    max: 200,
+                    value: 97,
+                    color: "#172554",
+                    options: {
+                      labelsCenterUnitsPost: " min.",
+                      textSize: 14,
+                      width: 3,
+                      marginLeft: 0,
+                      marginBottom: 0,
+                    },
+                  }).grow();
+                </script>
               </div>
-              <h5 class="swing pt-4 text-blue--950 text-lg font-medium tracking-wider w-fit">Synopsis</h5>
-              <p class="pb-6 tracking-wide text-base text-blue--950">"Finding Dory" suit l'aventure de Dory, le poisson chirurgien bleu, qui souffre de perte de mémoire à court terme. Lorsqu'elle se souvient soudainement de sa famille perdue depuis longtemps, Dory entreprend un voyage pour les retrouver. Avec l'aide de ses amis Nemo et Marlin, elle navigue à travers l'océan vers la Californie et finit par être recueillie par des employés d'un institut de recherche marine. À l'intérieur, Dory rencontre de nouveaux amis comme Hank, un poulpe grincheux, et Bailey, un béluga convaincu qu'il a des pouvoirs de sonar. Ensemble, ils surmontent les défis pour retrouver ses racines familiales.</p>
+              <h5
+                class="swing pt-4 text-blue--950 text-lg font-medium tracking-wider w-fit"
+              >
+                Synopsis
+              </h5>
+              <p class="pb-6 tracking-wide text-base text-blue--950">
+                "Finding Dory" suit l'aventure de Dory, le poisson chirurgien
+                bleu, qui souffre de perte de mémoire à court terme. Lorsqu'elle
+                se souvient soudainement de sa famille perdue depuis longtemps,
+                Dory entreprend un voyage pour les retrouver. Avec l'aide de ses
+                amis Nemo et Marlin, elle navigue à travers l'océan vers la
+                Californie et finit par être recueillie par des employés d'un
+                institut de recherche marine. À l'intérieur, Dory rencontre de
+                nouveaux amis comme Hank, un poulpe grincheux, et Bailey, un
+                béluga convaincu qu'il a des pouvoirs de sonar. Ensemble, ils
+                surmontent les défis pour retrouver ses racines familiales.
+              </p>
               <section class="flex flex-col">
-                <h5 class="font-medium text-base tracking-wider text-blue-950">Budget pour la création de ce film:</h5>
+                <h5 class="font-medium text-base tracking-wider text-blue-950">
+                  Budget pour la création de ce film:
+                </h5>
                 <div>
-                  <canvas id="budget-1" style="height: 120px; width: 220px;">
+                  <canvas id="budget-1" style="height: 120px; width: 220px">
                   </canvas>
-                  <script src="./assets/js/dory.js"></script>
+                  <script>
+                    new RGraph.HProgress({
+                      id: "budget-1",
+                      min: 40,
+                      max: 240,
+                      value: 200,
+                      options: {
+                        colors: ["#172554"],
+                        textSize: 14,
+                        corners: "round",
+                        cornersRoundRadius: 5,
+                        labelsCount: 0,
+                        labelsInner: true,
+                        labelsInnerBorder: false,
+                        labelsInnerUnitsPost: " M$",
+                        labelsInnerSize: 16,
+                        labelsInnerColor: "#dbeafe",
+                        labelsInnerBackgroundFill: "#172554",
+                        marginBottom: 60,
+                        marginLeft: 1,
+                        marginRight: 30,
+                        marginTop: 20,
+                      },
+                    }).draw();
+                  </script>
                 </div>
               </section>
             </div>
@@ -79,40 +249,132 @@
               <h5 class="font-normal tracking-wider text-base">Sources</h5>
               <ul class="flex flex-col gap-2 text-sm underline">
                 <li>
-                  <a href="https://www.boxofficemojo.com/weekly/2016W27/?ref_=bo_wly_table_27" target="_blank">Box Office Mojo</a>  
+                  <a
+                    href="https://www.boxofficemojo.com/weekly/2016W27/?ref_=bo_wly_table_27"
+                    target="_blank"
+                    >Box Office Mojo</a
+                  >
                 </li>
-                <li><a href="https://www.imdb.com/title/tt2277860/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_finding%2520dory" target="_blank">IMDB</a></li>
+                <li>
+                  <a
+                    href="https://www.imdb.com/title/tt2277860/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_finding%2520dory"
+                    target="_blank"
+                    >IMDB</a
+                  >
+                </li>
               </ul>
             </section>
           </div>
         </li>
 
-        <li id="tarzan" class="border-b border-blue-950 pb-12 flex flex-col text-blue-950">
-          <span class="heartBeat w-fit font-semibold py-2 text-blue-950 text-3xl">2.</span>
-          <h4 class="rubberBand font-medium text-2xl tracking-wider w-fit bg-blue-950 text-blue-100 px-2 py-1">The Legend of Tarzan</h4>
+        <li
+          id="tarzan"
+          class="border-b border-blue-950 pb-12 flex flex-col text-blue-950"
+        >
+          <span
+            class="heartBeat w-fit font-semibold py-2 text-blue-950 text-3xl"
+            >2.</span
+          >
+          <h4
+            class="rubberBand font-medium text-2xl tracking-wider w-fit bg-blue-950 text-blue-100 px-2 py-1"
+          >
+            The Legend of Tarzan
+          </h4>
           <figure class="flex flex-col">
             <picture>
-              <img class="max-h-96 py-6" src="https://m.media-amazon.com/images/M/MV5BMzY3OTI0OTcyMF5BMl5BanBnXkFtZTgwNjkxNTAwOTE@._V1_.jpg" alt="Image de cover du film: The Legend of Tarzan.">
+              <img
+                class="max-h-96 py-6"
+                src="https://m.media-amazon.com/images/M/MV5BMzY3OTI0OTcyMF5BMl5BanBnXkFtZTgwNjkxNTAwOTE@._V1_.jpg"
+                alt="Image de cover du film: The Legend of Tarzan."
+              />
             </picture>
           </figure>
           <div class="flex flex-col gap-12 text-base">
-            <a class="pulse bg-blue-500 border border-blue-950 font-light rounded-md text-blue-100 text-base tracking-wide w-fit py-1 px-6" href="https://www.youtube.com/watch?v=dLmKio67pVQ&t=12s&ab_channel=WarnerBros.Pictures" target="_blank">Bande Annonce</a>
+            <a
+              class="pulse bg-blue-500 border border-blue-950 font-light rounded-md text-blue-100 text-base tracking-wide w-fit py-1 px-6"
+              href="https://www.youtube.com/watch?v=dLmKio67pVQ&t=12s&ab_channel=WarnerBros.Pictures"
+              target="_blank"
+              >Bande Annonce</a
+            >
             <div class="items-center grid gap-8">
               <i class="bounce">
-                <img class="py-2 w-20" src="https://docs-assets.developer.apple.com/published/96199b6dfb4d979334420425832279f1/movie-rating-icons-united-states-3@2x.png" alt="Logo de classification de film 'pg-13'.">
+                <img
+                  class="py-2 w-20"
+                  src="https://docs-assets.developer.apple.com/published/96199b6dfb4d979334420425832279f1/movie-rating-icons-united-states-3@2x.png"
+                  alt="Logo de classification de film 'pg-13'."
+                />
               </i>
               <p class="text-xl">Action, Aventure, Drame</p>
-              <div id="movieTime-2" style="height: 120px; width: 120px;" class="flip">
-                <script src="./assets/js/tarzan.js"></script>
+              <div
+                id="movieTime-2"
+                style="height: 120px; width: 120px"
+                class="flip"
+              >
+                <script>
+                  horseshoe = new RGraph.SVG.Horseshoe({
+                    id: 'movieTime-2',
+                    min: 0,
+                    max: 200,
+                    value: 110,
+                    color : 'black',
+                    options: {
+                        labelsCenterUnitsPost: ' min.',
+                        textSize: 14,
+                        width: 3,
+                        marginLeft: 0,
+                        marginBottom: 0
+                    }
+                }).grow();
+                </script>
               </div>
-              <h5 class="swing w-fit pt-4 text-lg font-medium tracking-wider">Synopsis</h5>
-              <p class="pb-6 tracking-wide text-base">"The Legend of Tarzan" (2016) raconte l'histoire de Tarzan (Alexander Skarsgård), désormais Lord Greystoke, qui a quitté la jungle africaine pour vivre en Angleterre avec son épouse Jane (Margot Robbie). Lorsqu'il est invité à retourner au Congo en tant qu'émissaire commercial, Tarzan se retrouve piégé dans un complot orchestré par le cupide capitaine belge Léon Rom (Christoph Waltz). Rom, allié à des forces coloniales, menace d'exploiter le Congo et ses habitants. Tarzan doit alors renouer avec ses origines sauvages pour sauver Jane et contrecarrer les plans destructeurs de Rom. Le film explore les thèmes de la justice, de la loyauté et de la rédemption.</p>
+              <h5 class="swing w-fit pt-4 text-lg font-medium tracking-wider">
+                Synopsis
+              </h5>
+              <p class="pb-6 tracking-wide text-base">
+                "The Legend of Tarzan" (2016) raconte l'histoire de Tarzan
+                (Alexander Skarsgård), désormais Lord Greystoke, qui a quitté la
+                jungle africaine pour vivre en Angleterre avec son épouse Jane
+                (Margot Robbie). Lorsqu'il est invité à retourner au Congo en
+                tant qu'émissaire commercial, Tarzan se retrouve piégé dans un
+                complot orchestré par le cupide capitaine belge Léon Rom
+                (Christoph Waltz). Rom, allié à des forces coloniales, menace
+                d'exploiter le Congo et ses habitants. Tarzan doit alors renouer
+                avec ses origines sauvages pour sauver Jane et contrecarrer les
+                plans destructeurs de Rom. Le film explore les thèmes de la
+                justice, de la loyauté et de la rédemption.
+              </p>
               <section class="flex flex-col">
-                <h5 class="font-medium text-base tracking-wider">Budget pour la création de ce film:</h5>
+                <h5 class="font-medium text-base tracking-wider">
+                  Budget pour la création de ce film:
+                </h5>
                 <div>
-                  <canvas id="budget-2" style="height: 120px; width: 220px;">
+                  <canvas id="budget-2" style="height: 120px; width: 220px">
                   </canvas>
-                  <script src="./assets/js/tarzan.js"></script>
+                  <script>
+                      new RGraph.HProgress({
+                          id: 'budget-2',
+                          min: 40,
+                          max: 240,
+                          value: 180,
+                          options: {
+                              colors: ['#172554'],
+                              textSize: 14,
+                              corners: 'round',
+                              cornersRoundRadius: 5,
+                              labelsCount: 0,
+                              labelsInner: true,
+                              labelsInnerBorder: false,
+                              labelsInnerUnitsPost: ' M$',
+                              labelsInnerSize: 16,
+                              labelsInnerColor: '#dbeafe',
+                              labelsInnerBackgroundFill: '#172554',
+                              marginBottom: 60,
+                              marginLeft: 1,
+                              marginRight: 1, 
+                              marginTop: 20
+                          }
+                      }).draw();
+                  </script>
                 </div>
               </section>
             </div>
@@ -120,40 +382,129 @@
               <h5 class="font-normal tracking-wider text-base">Sources</h5>
               <ul class="flex flex-col gap-2 text-sm underline">
                 <li>
-                  <a href="https://www.boxofficemojo.com/weekly/2016W27/?ref_=bo_wly_table_27" target="_blank">Box Office Mojo</a>  
+                  <a
+                    href="https://www.boxofficemojo.com/weekly/2016W27/?ref_=bo_wly_table_27"
+                    target="_blank"
+                    >Box Office Mojo</a
+                  >
                 </li>
-                <li><a href="https://www.imdb.com/title/tt4094724/?ref_=nv_sr_srsg_0_tt_2_nm_0_q_the%2520purge%2520elec%2520" target="_blank">IMDB</a></li>
+                <li>
+                  <a
+                    href="https://www.imdb.com/title/tt4094724/?ref_=nv_sr_srsg_0_tt_2_nm_0_q_the%2520purge%2520elec%2520"
+                    target="_blank"
+                    >IMDB</a
+                  >
+                </li>
               </ul>
             </section>
           </div>
         </li>
 
-        <li id="purge" class="border-b border-blue-950 pb-12 flex flex-col text-blue-950">
+        <li
+          id="purge"
+          class="border-b border-blue-950 pb-12 flex flex-col text-blue-950"
+        >
           <span class="heartBeat w-fit font-semibold py-2 text-3xl">3.</span>
-          <h4 class="rubberBand font-medium text-2xl tracking-wider w-fit bg-blue-950 text-blue-100 px-2 py-1">The Purge: Election Year</h4>
+          <h4
+            class="rubberBand font-medium text-2xl tracking-wider w-fit bg-blue-950 text-blue-100 px-2 py-1"
+          >
+            The Purge: Election Year
+          </h4>
           <figure class="flex flex-col">
             <picture>
-              <img class="max-h-96 py-6" src="https://m.media-amazon.com/images/M/MV5BMjI3MDI0MTA1N15BMl5BanBnXkFtZTgwOTk4NjU5ODE@._V1_.jpg" alt="Image de cover du film: The Purge: Election Year.">
+              <img
+                class="max-h-96 py-6"
+                src="https://m.media-amazon.com/images/M/MV5BMjI3MDI0MTA1N15BMl5BanBnXkFtZTgwOTk4NjU5ODE@._V1_.jpg"
+                alt="Image de cover du film: The Purge: Election Year."
+              />
             </picture>
           </figure>
           <div class="flex flex-col gap-12 text-base">
-            <a class="pulse bg-blue-500 border border-blue-950 font-light rounded-md text-blue-100 text-base tracking-wide w-fit py-1 px-6" href="https://www.youtube.com/watch?v=RXMp9fBomJw&t=1s&ab_channel=UniversalPictures" target="_blank">Bande Annonce</a>
+            <a
+              class="pulse bg-blue-500 border border-blue-950 font-light rounded-md text-blue-100 text-base tracking-wide w-fit py-1 px-6"
+              href="https://www.youtube.com/watch?v=RXMp9fBomJw&t=1s&ab_channel=UniversalPictures"
+              target="_blank"
+              >Bande Annonce</a
+            >
             <div class="items-center grid gap-8">
               <i class="bounce">
-                <img class="py-2 w-20" src="https://docs-assets.developer.apple.com/published/8dc23d7e4b5301a3b82724b923eb0081/movie-rating-icons-united-states-4@2x.png" alt="Logo de classification de film 'restricted'.">
+                <img
+                  class="py-2 w-20"
+                  src="https://docs-assets.developer.apple.com/published/8dc23d7e4b5301a3b82724b923eb0081/movie-rating-icons-united-states-4@2x.png"
+                  alt="Logo de classification de film 'restricted'."
+                />
               </i>
               <p class="text-xl">Action, Horreur, Science-fiction</p>
-              <div id="movieTime-3" style="height: 120px; width: 120px;" class="flip">
-                <script src="./assets/js/purge.js"></script>
+              <div
+                id="movieTime-3"
+                style="height: 120px; width: 120px"
+                class="flip"
+              >
+                <script>
+                  horseshoe = new RGraph.SVG.Horseshoe({
+                    id: 'movieTime-3',
+                    min: 0,
+                    max: 200,
+                    value: 108,
+                    color : '#8e5ea2',
+                    options: {
+                        labelsCenterUnitsPost: ' min.',
+                        textSize: 14,
+                        width: 3,
+                        marginLeft: 0,
+                        marginBottom: 0
+                    }
+                }).grow();
+                </script>
               </div>
-              <h5 class="swing w-fit pt-4 text-lg font-medium tracking-wider">Synopsis</h5>
-              <p class="pb-6 tracking-wide text-base">"The Purge: Election Year" se déroule deux ans après "The Purge: Anarchy". La sénatrice Charlie Roan (Elizabeth Mitchell), une candidate présidentielle promettant d'abolir la Purge annuelle, est ciblée par ses adversaires politiques. Leo Barnes (Frank Grillo), maintenant chef de la sécurité de Roan, doit la protéger lors de cette nuit de chaos où tous les crimes sont permis. Traqués par des mercenaires et des purgers, ils doivent survivre jusqu'à l'aube pour sauver la campagne de Roan et mettre fin à la tradition sanglante de la Purge. Le film explore les thèmes de la violence, de la politique et de la justice sociale.</p>
+              <h5 class="swing w-fit pt-4 text-lg font-medium tracking-wider">
+                Synopsis
+              </h5>
+              <p class="pb-6 tracking-wide text-base">
+                "The Purge: Election Year" se déroule deux ans après "The Purge:
+                Anarchy". La sénatrice Charlie Roan (Elizabeth Mitchell), une
+                candidate présidentielle promettant d'abolir la Purge annuelle,
+                est ciblée par ses adversaires politiques. Leo Barnes (Frank
+                Grillo), maintenant chef de la sécurité de Roan, doit la
+                protéger lors de cette nuit de chaos où tous les crimes sont
+                permis. Traqués par des mercenaires et des purgers, ils doivent
+                survivre jusqu'à l'aube pour sauver la campagne de Roan et
+                mettre fin à la tradition sanglante de la Purge. Le film explore
+                les thèmes de la violence, de la politique et de la justice
+                sociale.
+              </p>
               <section class="flex flex-col">
-                <h5 class="font-medium text-base tracking-wider">Budget pour la création de ce film:</h5>
+                <h5 class="font-medium text-base tracking-wider">
+                  Budget pour la création de ce film:
+                </h5>
                 <div>
-                  <canvas id="budget-3" style="height: 120px; width: 220px;">
+                  <canvas id="budget-3" style="height: 120px; width: 220px">
                   </canvas>
-                  <script src="./assets/js/purge.js"></script>
+                  <script>
+                    new RGraph.HProgress({
+                      id: 'budget-3',
+                      min: 0,
+                      max: 240,
+                      value: 10,
+                      options: {
+                          colors: ['#172554'],
+                          textSize: 14,
+                          corners: 'round',
+                          cornersRoundRadius: 5,
+                          labelsCount: 0,
+                          labelsInner: true,
+                          labelsInnerBorder: false,
+                          labelsInnerUnitsPost: ' M$',
+                          labelsInnerSize: 16,
+                          labelsInnerColor: '#dbeafe',
+                          labelsInnerBackgroundFill: '#172554',
+                          marginBottom: 60,
+                          marginLeft: 1,
+                          marginRight: 1, 
+                          marginTop: 20
+                      }
+                  }).draw();
+                  </script>
                 </div>
               </section>
             </div>
@@ -161,40 +512,131 @@
               <h5 class="font-normal tracking-wider text-base">Sources</h5>
               <ul class="flex flex-col gap-2 text-sm underline">
                 <li>
-                  <a href="https://www.boxofficemojo.com/weekly/2016W27/?ref_=bo_wly_table_27" target="_blank">Box Office Mojo</a>  
+                  <a
+                    href="https://www.boxofficemojo.com/weekly/2016W27/?ref_=bo_wly_table_27"
+                    target="_blank"
+                    >Box Office Mojo</a
+                  >
                 </li>
-                <li><a href="https://www.imdb.com/title/tt4094724/?ref_=nv_sr_srsg_0_tt_2_nm_0_q_the%2520purge%2520elec%2520" target="_blank">IMDB</a></li>
+                <li>
+                  <a
+                    href="https://www.imdb.com/title/tt4094724/?ref_=nv_sr_srsg_0_tt_2_nm_0_q_the%2520purge%2520elec%2520"
+                    target="_blank"
+                    >IMDB</a
+                  >
+                </li>
               </ul>
             </section>
           </div>
         </li>
 
-        <li id="bfg" class="border-b border-blue-950 pb-12 flex flex-col text-blue-950">
-          <span class="heartBeat w-fit font-semibold py-2 text-blue-950 text-3xl">4.</span>
-          <h4 class="rubberBand font-medium text-2xl tracking-wider w-fit bg-blue-950 text-blue-100 px-2 py-1">The BFG</h4>
+        <li
+          id="bfg"
+          class="border-b border-blue-950 pb-12 flex flex-col text-blue-950"
+        >
+          <span
+            class="heartBeat w-fit font-semibold py-2 text-blue-950 text-3xl"
+            >4.</span
+          >
+          <h4
+            class="rubberBand font-medium text-2xl tracking-wider w-fit bg-blue-950 text-blue-100 px-2 py-1"
+          >
+            The BFG
+          </h4>
           <figure class="flex flex-col">
             <picture>
-              <img class="max-h-96 py-6" src="https://m.media-amazon.com/images/M/MV5BNjAzOTUzNTY3Ml5BMl5BanBnXkFtZTgwMjYwNzE5ODE@._V1_.jpg" alt="Image de cover du film: The BFG.">
+              <img
+                class="max-h-96 py-6"
+                src="https://m.media-amazon.com/images/M/MV5BNjAzOTUzNTY3Ml5BMl5BanBnXkFtZTgwMjYwNzE5ODE@._V1_.jpg"
+                alt="Image de cover du film: The BFG."
+              />
             </picture>
           </figure>
           <div class="flex flex-col gap-12 text-base">
-            <a class="pulse bg-blue-500 border border-blue-950 font-light rounded-md text-blue-100 text-base tracking-wide w-fit py-1 px-6" href="https://www.youtube.com/watch?v=frGSzFj10p4&ab_channel=RottenTomatoesTrailers" target="_blank">Bande Annonce</a>
+            <a
+              class="pulse bg-blue-500 border border-blue-950 font-light rounded-md text-blue-100 text-base tracking-wide w-fit py-1 px-6"
+              href="https://www.youtube.com/watch?v=frGSzFj10p4&ab_channel=RottenTomatoesTrailers"
+              target="_blank"
+              >Bande Annonce</a
+            >
             <div class="items-center grid gap-8">
               <i class="bounce">
-                <img class="py-2 w-20" src="https://docs-assets.developer.apple.com/published/96199b6dfb4d979334420425832279f1/movie-rating-icons-united-states-3@2x.png" alt="Logo de classification de film 'pg-13'.">
+                <img
+                  class="py-2 w-20"
+                  src="https://docs-assets.developer.apple.com/published/96199b6dfb4d979334420425832279f1/movie-rating-icons-united-states-3@2x.png"
+                  alt="Logo de classification de film 'pg-13'."
+                />
               </i>
               <p class="text-xl">Aventure, Pour Tous, Fantastique</p>
-              <div id="movieTime-4" style="height: 120px; width: 120px;" class="flip">
-                <script src="./assets/js/bfg.js"></script>
+              <div
+                id="movieTime-4"
+                style="height: 120px; width: 120px"
+                class="flip"
+              >
+                <script>
+                  horseshoe = new RGraph.SVG.Horseshoe({
+                    id: 'movieTime-4',
+                    min: 0,
+                    max: 200,
+                    value: 117,
+                    color : '#8e5ea2',
+                    options: {
+                        labelsCenterUnitsPost: ' min.',
+                        textSize: 14,
+                        width: 3,
+                        marginLeft: 0,
+                        marginBottom: 0
+                    }
+                }).grow();
+                </script>
               </div>
-              <h5 class="swing w-fit pt-4 text-lg font-medium tracking-wider">Synopsis</h5>
-              <p class="pb-6 tracking-wide text-base">"The BFG" (Le Bon Gros Géant) raconte l'histoire de Sophie, une orpheline de dix ans, qui rencontre un géant amical nommé BFG (Bon Gros Géant). Contrairement aux autres géants effrayants qui mangent des enfants, BFG collecte et distribue de bons rêves aux enfants la nuit. Sophie et BFG deviennent amis et unissent leurs forces pour empêcher les géants maléfiques de dévorer des enfants. Ensemble, ils élaborent un plan pour convaincre la reine d'Angleterre de les aider à capturer les géants malveillants. Le film, basé sur le livre de Roald Dahl, est une aventure magique et touchante sur l'amitié et le courage.</p>
+              <h5 class="swing w-fit pt-4 text-lg font-medium tracking-wider">
+                Synopsis
+              </h5>
+              <p class="pb-6 tracking-wide text-base">
+                "The BFG" (Le Bon Gros Géant) raconte l'histoire de Sophie, une
+                orpheline de dix ans, qui rencontre un géant amical nommé BFG
+                (Bon Gros Géant). Contrairement aux autres géants effrayants qui
+                mangent des enfants, BFG collecte et distribue de bons rêves aux
+                enfants la nuit. Sophie et BFG deviennent amis et unissent leurs
+                forces pour empêcher les géants maléfiques de dévorer des
+                enfants. Ensemble, ils élaborent un plan pour convaincre la
+                reine d'Angleterre de les aider à capturer les géants
+                malveillants. Le film, basé sur le livre de Roald Dahl, est une
+                aventure magique et touchante sur l'amitié et le courage.
+              </p>
               <section class="flex flex-col">
-                <h5 class="font-medium text-base tracking-wider">Budget pour la création de ce film:</h5>
+                <h5 class="font-medium text-base tracking-wider">
+                  Budget pour la création de ce film:
+                </h5>
                 <div>
-                  <canvas id="budget-4" style="height: 120px; width: 220px;">
+                  <canvas id="budget-4" style="height: 120px; width: 220px">
                   </canvas>
-                  <script src="./assets/js/bfg.js"></script>
+                  <script>
+                    new RGraph.HProgress({
+                      id: 'budget-4',
+                      min: 0,
+                      max: 240,
+                      value: 140,
+                      options: {
+                          colors: ['#172554'],
+                          textSize: 14,
+                          corners: 'round',
+                          cornersRoundRadius: 5,
+                          labelsCount: 0,
+                          labelsInner: true,
+                          labelsInnerBorder: false,
+                          labelsInnerUnitsPost: ' M$',
+                          labelsInnerSize: 16,
+                          labelsInnerColor: '#dbeafe',
+                          labelsInnerBackgroundFill: '#172554',
+                          marginBottom: 60,
+                          marginLeft: 1,
+                          marginRight: 1, 
+                          marginTop: 20
+                      }
+                  }).draw();
+                  </script>
                 </div>
               </section>
             </div>
@@ -202,81 +644,266 @@
               <h5 class="font-normal tracking-wider text-base">Sources</h5>
               <ul class="flex flex-col gap-2 text-sm underline">
                 <li>
-                  <a href="https://www.boxofficemojo.com/weekly/2016W27/?ref_=bo_wly_table_27" target="_blank">Box Office Mojo</a>  
+                  <a
+                    href="https://www.boxofficemojo.com/weekly/2016W27/?ref_=bo_wly_table_27"
+                    target="_blank"
+                    >Box Office Mojo</a
+                  >
                 </li>
-                <li><a href="https://www.imdb.com/title/tt3691740/?ref_=fn_al_tt_1" target="_blank">IMDB</a></li>
+                <li>
+                  <a
+                    href="https://www.imdb.com/title/tt3691740/?ref_=fn_al_tt_1"
+                    target="_blank"
+                    >IMDB</a
+                  >
+                </li>
               </ul>
             </section>
           </div>
         </li>
 
-        <li id="independence-day" class="border-b border-blue-950 pb-12 flex flex-col text-blue-950">
-          <span class="heartBeat w-fit  font-semibold py-2 text-blue-950 text-3xl">5.</span>
-          <h4 class="rubberBand font-medium text-2xl tracking-wider w-fit bg-blue-950 text-blue-100 px-2 py-1">Independence Day: Resurgence</h4>
+        <li
+          id="independence-day"
+          class="border-b border-blue-950 pb-12 flex flex-col text-blue-950"
+        >
+          <span
+            class="heartBeat w-fit font-semibold py-2 text-blue-950 text-3xl"
+            >5.</span
+          >
+          <h4
+            class="rubberBand font-medium text-2xl tracking-wider w-fit bg-blue-950 text-blue-100 px-2 py-1"
+          >
+            Independence Day: Resurgence
+          </h4>
           <figure class="flex flex-col">
             <picture>
-              <img class="max-h-96 py-6" src="https://m.media-amazon.com/images/M/MV5BMjIyMTg5MTg4OV5BMl5BanBnXkFtZTgwMzkzMjY5NzE@._V1_.jpg" alt="Image de cover du film: Independence Day: Resurgence.">
+              <img
+                class="max-h-96 py-6"
+                src="https://m.media-amazon.com/images/M/MV5BMjIyMTg5MTg4OV5BMl5BanBnXkFtZTgwMzkzMjY5NzE@._V1_.jpg"
+                alt="Image de cover du film: Independence Day: Resurgence."
+              />
             </picture>
           </figure>
           <div class="flex flex-col gap-12 text-base">
-            <a class="pulse bg-blue-500 border border-blue-950 font-light rounded-md text-blue-100 text-base tracking-wide w-fit py-1 px-6" href="https://www.youtube.com/watch?v=LbduDRH2m2M&t=1s&ab_channel=20thCenturyStudios" target="_blank">Bande Annonce</a>
+            <a
+              class="pulse bg-blue-500 border border-blue-950 font-light rounded-md text-blue-100 text-base tracking-wide w-fit py-1 px-6"
+              href="https://www.youtube.com/watch?v=LbduDRH2m2M&t=1s&ab_channel=20thCenturyStudios"
+              target="_blank"
+              >Bande Annonce</a
+            >
             <div class="items-center grid gap-8">
               <i class="bounce">
-                <img class="py-2 w-20" src="https://docs-assets.developer.apple.com/published/96199b6dfb4d979334420425832279f1/movie-rating-icons-united-states-3@2x.png" alt="Logo de classification de film 'pg-13'.">
+                <img
+                  class="py-2 w-20"
+                  src="https://docs-assets.developer.apple.com/published/96199b6dfb4d979334420425832279f1/movie-rating-icons-united-states-3@2x.png"
+                  alt="Logo de classification de film 'pg-13'."
+                />
               </i>
               <p class="text-xl">Action, Aventure, Science-fiction</p>
-              <div id="movieTime-5" style="height: 120px; width: 120px;" class="flip">
-                <script src="./assets/js/independence.js"></script>
+              <div
+                id="movieTime-5"
+                style="height: 120px; width: 120px"
+                class="flip"
+              >
+                <script>
+                  horseshoe = new RGraph.SVG.Horseshoe({
+                    id: 'movieTime-5',
+                    min: 0,
+                    max: 200,
+                    value: 120,
+                    color : '#8e5ea2',
+                    options: {
+                        labelsCenterUnitsPost: ' min.',
+                        textSize: 14,
+                        width: 3,
+                        marginLeft: 0,
+                        marginBottom: 0
+                    }
+                }).grow();
+                </script>
               </div>
-              <h5 class="swing w-fit pt-4 text-lg font-medium tracking-wider">Synopsis</h5>
-              <p class="pb-6 tracking-wide text-base">"Independence Day: Resurgence" se déroule 20 ans après l'invasion extraterrestre dévastatrice de 1996. Les nations de la Terre ont collaboré pour créer un programme de défense mondial utilisant la technologie alien capturée. Cependant, les extraterrestres lancent une nouvelle attaque massive, encore plus puissante. Les héros originaux, tels que l'ancien président Whitmore (Bill Pullman) et David Levinson (Jeff Goldblum), unissent leurs forces avec une nouvelle génération de combattants, y compris Jake Morrison (Liam Hemsworth). Ensemble, ils doivent utiliser leur ingéniosité et leur courage pour sauver l'humanité d'une extinction imminente, affrontant des défis colossaux pour défendre la planète.</p>
+              <h5 class="swing w-fit pt-4 text-lg font-medium tracking-wider">
+                Synopsis
+              </h5>
+              <p class="pb-6 tracking-wide text-base">
+                "Independence Day: Resurgence" se déroule 20 ans après
+                l'invasion extraterrestre dévastatrice de 1996. Les nations de
+                la Terre ont collaboré pour créer un programme de défense
+                mondial utilisant la technologie alien capturée. Cependant, les
+                extraterrestres lancent une nouvelle attaque massive, encore
+                plus puissante. Les héros originaux, tels que l'ancien président
+                Whitmore (Bill Pullman) et David Levinson (Jeff Goldblum),
+                unissent leurs forces avec une nouvelle génération de
+                combattants, y compris Jake Morrison (Liam Hemsworth). Ensemble,
+                ils doivent utiliser leur ingéniosité et leur courage pour
+                sauver l'humanité d'une extinction imminente, affrontant des
+                défis colossaux pour défendre la planète.
+              </p>
               <section class="flex flex-col">
-                <h5 class="font-medium text-base tracking-wider">Budget pour la création de ce film:</h5>
+                <h5 class="font-medium text-base tracking-wider">
+                  Budget pour la création de ce film:
+                </h5>
                 <div>
-                  <canvas id="budget-5" style="height: 120px; width: 220px;">
+                  <canvas id="budget-5" style="height: 120px; width: 220px">
                   </canvas>
-                  <script src="./assets/js/independence.js"></script>
+                  <script>
+                    new RGraph.HProgress({
+                      id: 'budget-5',
+                      min: 0,
+                      max: 240,
+                      value: 165,
+                      options: {
+                          colors: ['#172554'],
+                          textSize: 14,
+                          corners: 'round',
+                          cornersRoundRadius: 5,
+                          labelsCount: 0,
+                          labelsInner: true,
+                          labelsInnerBorder: false,
+                          labelsInnerUnitsPost: ' M$',
+                          labelsInnerSize: 16,
+                          labelsInnerColor: '#dbeafe',
+                          labelsInnerBackgroundFill: '#172554',
+                          marginBottom: 60,
+                          marginLeft: 1,
+                          marginRight: 1, 
+                          marginTop: 20
+                      }
+                  }).draw();
+                  </script>
                 </div>
               </section>
             </div>
             <section class="shakeX flex flex-col gap-2 px-4">
-              <h5 class=" ont-normal tracking-wider text-base">Sources</h5>
+              <h5 class="ont-normal tracking-wider text-base">Sources</h5>
               <ul class="flex flex-col gap-2 text-sm underline">
                 <li>
-                  <a href="https://www.boxofficemojo.com/weekly/2016W27/?ref_=bo_wly_table_27" target="_blank">Box Office Mojo</a>  
+                  <a
+                    href="https://www.boxofficemojo.com/weekly/2016W27/?ref_=bo_wly_table_27"
+                    target="_blank"
+                    >Box Office Mojo</a
+                  >
                 </li>
-                <li><a href="https://www.imdb.com/title/tt1628841/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_independence%2520day%2520res" target="_blank">IMDB</a></li>
+                <li>
+                  <a
+                    href="https://www.imdb.com/title/tt1628841/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_independence%2520day%2520res"
+                    target="_blank"
+                    >IMDB</a
+                  >
+                </li>
               </ul>
             </section>
           </div>
         </li>
 
-        <li id="central" class="border-b border-blue-950 pb-12 flex flex-col text-blue-950">
-          <span class="heartBeat w-fit font-semibold py-2 text-blue-950 text-3xl">6.</span>
-          <h4 class="rubberBand font-medium text-2xl tracking-wider w-fit bg-blue-950 text-blue-100 px-2 py-1">Central Intelligence</h4>
+        <li
+          id="central"
+          class="border-b border-blue-950 pb-12 flex flex-col text-blue-950"
+        >
+          <span
+            class="heartBeat w-fit font-semibold py-2 text-blue-950 text-3xl"
+            >6.</span
+          >
+          <h4
+            class="rubberBand font-medium text-2xl tracking-wider w-fit bg-blue-950 text-blue-100 px-2 py-1"
+          >
+            Central Intelligence
+          </h4>
           <figure class="flex flex-col">
             <picture>
-              <img class="max-h-96 py-6" src="https://m.media-amazon.com/images/M/MV5BMjA2NzEzNjIwNl5BMl5BanBnXkFtZTgwNzgwMTEzNzE@._V1_.jpg" alt="Image de cover du film: Central Intelligence.">
+              <img
+                class="max-h-96 py-6"
+                src="https://m.media-amazon.com/images/M/MV5BMjA2NzEzNjIwNl5BMl5BanBnXkFtZTgwNzgwMTEzNzE@._V1_.jpg"
+                alt="Image de cover du film: Central Intelligence."
+              />
             </picture>
           </figure>
           <div class="flex flex-col gap-12 text-base">
-            <a class="pulse bg-blue-500 border border-blue-950 font-light rounded-md text-blue-100 text-md tracking-wide w-fit py-1 px-6" href="https://www.youtube.com/watch?v=MxEw3elSJ8M&t=2s&ab_channel=WarnerBros.Pictures" target="_blank">Bande Annonce</a>
+            <a
+              class="pulse bg-blue-500 border border-blue-950 font-light rounded-md text-blue-100 text-md tracking-wide w-fit py-1 px-6"
+              href="https://www.youtube.com/watch?v=MxEw3elSJ8M&t=2s&ab_channel=WarnerBros.Pictures"
+              target="_blank"
+              >Bande Annonce</a
+            >
             <div class="items-center grid gap-8">
               <i class="bounce">
-                <img class="py-2 w-20" src="https://docs-assets.developer.apple.com/published/96199b6dfb4d979334420425832279f1/movie-rating-icons-united-states-3@2x.png" alt="Logo de classification de film 'pg-13'.">
+                <img
+                  class="py-2 w-20"
+                  src="https://docs-assets.developer.apple.com/published/96199b6dfb4d979334420425832279f1/movie-rating-icons-united-states-3@2x.png"
+                  alt="Logo de classification de film 'pg-13'."
+                />
               </i>
               <p class="text-xl">Action, Comédie, Crime</p>
-              <div id="movieTime-6" style="height: 120px; width: 120px;" class="flip">
-                <script src="./assets/js/central.js"></script>
+              <div
+                id="movieTime-6"
+                style="height: 120px; width: 120px"
+                class="flip"
+              >
+                <script>
+                  horseshoe = new RGraph.SVG.Horseshoe({
+                    id: 'movieTime-6',
+                    min: 0,
+                    max: 200,
+                    value: 107,
+                    color : '#8e5ea2',
+                    options: {
+                        labelsCenterUnitsPost: ' min.',
+                        textSize: 14,
+                        width: 3,
+                        marginLeft: 0,
+                        marginBottom: 0
+                    }
+                }).grow();
+                </script>
               </div>
-              <h5 class="swing w-fit pt-4 text-lg font-medium tracking-wider">Synopsis</h5>
-              <p class="pb-6 tracking-wide text-base">"Central Intelligence" raconte l'histoire de Calvin Joyner (Kevin Hart), un comptable ordinaire, qui retrouve Bob Stone (Dwayne Johnson), un ancien camarade de lycée devenu agent de la CIA. Bob, autrefois victime de harcèlement scolaire, a radicalement changé physiquement et professionnellement. Il entraîne Calvin dans une mission pour arrêter des criminels dangereux et empêcher la vente de secrets militaires. Malgré ses réticences, Calvin se retrouve plongé dans le monde de l'espionnage, mêlant action et comédie. Le film explore leur amitié renouvelée tout en naviguant dans des situations périlleuses et hilarantes.</p>
+              <h5 class="swing w-fit pt-4 text-lg font-medium tracking-wider">
+                Synopsis
+              </h5>
+              <p class="pb-6 tracking-wide text-base">
+                "Central Intelligence" raconte l'histoire de Calvin Joyner
+                (Kevin Hart), un comptable ordinaire, qui retrouve Bob Stone
+                (Dwayne Johnson), un ancien camarade de lycée devenu agent de la
+                CIA. Bob, autrefois victime de harcèlement scolaire, a
+                radicalement changé physiquement et professionnellement. Il
+                entraîne Calvin dans une mission pour arrêter des criminels
+                dangereux et empêcher la vente de secrets militaires. Malgré ses
+                réticences, Calvin se retrouve plongé dans le monde de
+                l'espionnage, mêlant action et comédie. Le film explore leur
+                amitié renouvelée tout en naviguant dans des situations
+                périlleuses et hilarantes.
+              </p>
               <section class="flex flex-col">
-                <h5 class="font-medium text-base tracking-wider">Budget pour la création de ce film:</h5>
+                <h5 class="font-medium text-base tracking-wider">
+                  Budget pour la création de ce film:
+                </h5>
                 <div>
-                  <canvas id="budget-6" style="height: 120px; width: 220px;">
+                  <canvas id="budget-6" style="height: 120px; width: 220px">
                   </canvas>
-                  <script src="./assets/js/central.js"></script>
+                  <script>
+                    new RGraph.HProgress({
+                      id: 'budget-6',
+                      min: 0,
+                      max: 240,
+                      value: 50,
+                      options: {
+                          colors: ['#172554'],
+                          textSize: 14,
+                          corners: 'round',
+                          cornersRoundRadius: 5,
+                          labelsCount: 0,
+                          labelsInner: true,
+                          labelsInnerBorder: false,
+                          labelsInnerUnitsPost: ' M$',
+                          labelsInnerSize: 16,
+                          labelsInnerColor: '#dbeafe',
+                          labelsInnerBackgroundFill: '#172554',
+                          marginBottom: 60,
+                          marginLeft: 1,
+                          marginRight: 1, 
+                          marginTop: 20
+                      }
+                  }).draw();
+                  </script>
                 </div>
               </section>
             </div>
@@ -284,40 +911,130 @@
               <h5 class="font-normal tracking-wider text-base">Sources</h5>
               <ul class="flex flex-col gap-2 text-sm underline">
                 <li>
-                  <a href="https://www.boxofficemojo.com/weekly/2016W27/?ref_=bo_wly_table_27" target="_blank">Box Office Mojo</a>  
+                  <a
+                    href="https://www.boxofficemojo.com/weekly/2016W27/?ref_=bo_wly_table_27"
+                    target="_blank"
+                    >Box Office Mojo</a
+                  >
                 </li>
-                <li><a href="https://www.imdb.com/title/tt1489889/?ref_=fn_al_tt_1" target="_blank">IMDB</a></li>
+                <li>
+                  <a
+                    href="https://www.imdb.com/title/tt1489889/?ref_=fn_al_tt_1"
+                    target="_blank"
+                    >IMDB</a
+                  >
+                </li>
               </ul>
             </section>
           </div>
         </li>
 
-        <li id="shallows" class="border-b border-blue-950 pb-12 flex flex-col text-blue-950">
-          <span class="heartBeat w-fit font-semibold py-2 text-blue-950 text-3xl">7.</span>
-          <h4 class="rubberBand font-medium text-2xl tracking-wider w-fit bg-blue-950 text-blue-100 px-2 py-1">The Shallows</h4>
+        <li
+          id="shallows"
+          class="border-b border-blue-950 pb-12 flex flex-col text-blue-950"
+        >
+          <span
+            class="heartBeat w-fit font-semibold py-2 text-blue-950 text-3xl"
+            >7.</span
+          >
+          <h4
+            class="rubberBand font-medium text-2xl tracking-wider w-fit bg-blue-950 text-blue-100 px-2 py-1"
+          >
+            The Shallows
+          </h4>
           <figure class="flex flex-col">
             <picture>
-              <img class="max-h-96 py-6" src="https://m.media-amazon.com/images/M/MV5BMjA1MTA4MzU4Ml5BMl5BanBnXkFtZTgwNjUxNjczODE@._V1_.jpg" alt="Image de cover du film: The Shallows.">
+              <img
+                class="max-h-96 py-6"
+                src="https://m.media-amazon.com/images/M/MV5BMjA1MTA4MzU4Ml5BMl5BanBnXkFtZTgwNjUxNjczODE@._V1_.jpg"
+                alt="Image de cover du film: The Shallows."
+              />
             </picture>
           </figure>
           <div class="flex flex-col gap-12 text-base">
-            <a class="pulse bg-blue-500 border border-blue-950 font-light rounded-md text-blue-100 text-base tracking-wide w-fit py-1 px-6" href="https://www.youtube.com/watch?v=EgdxIlSuB70&t=1s&ab_channel=SonyPicturesEntertainment" target="_blank">Bande Annonce</a>
+            <a
+              class="pulse bg-blue-500 border border-blue-950 font-light rounded-md text-blue-100 text-base tracking-wide w-fit py-1 px-6"
+              href="https://www.youtube.com/watch?v=EgdxIlSuB70&t=1s&ab_channel=SonyPicturesEntertainment"
+              target="_blank"
+              >Bande Annonce</a
+            >
             <div class="items-center grid gap-8">
               <i class="bounce">
-                <img class="py-2 w-20" src="https://docs-assets.developer.apple.com/published/96199b6dfb4d979334420425832279f1/movie-rating-icons-united-states-3@2x.png" alt="Logo de classification de film 'pg-13'.">
+                <img
+                  class="py-2 w-20"
+                  src="https://docs-assets.developer.apple.com/published/96199b6dfb4d979334420425832279f1/movie-rating-icons-united-states-3@2x.png"
+                  alt="Logo de classification de film 'pg-13'."
+                />
               </i>
               <p class="text-xl">Action, Drame, Horreur</p>
-              <div id="movieTime-7" style="height: 120px; width: 120px;" class="flip">
-                <script src="./assets/js/shallows.js"></script>
+              <div
+                id="movieTime-7"
+                style="height: 120px; width: 120px"
+                class="flip"
+              >
+                <script>
+                  horseshoe = new RGraph.SVG.Horseshoe({
+                    id: 'movieTime-7',
+                    min: 0,
+                    max: 200,
+                    value: 86,
+                    color : '#8e5ea2',
+                    options: {
+                        labelsCenterUnitsPost: ' min.',
+                        textSize: 14,
+                        width: 3,
+                        marginLeft: 0,
+                        marginBottom: 0
+                    }
+                }).grow();
+                </script>
               </div>
-              <h5 class="swing w-fit pt-4 text-lg font-medium tracking-wider">Synopsis</h5>
-              <p class="pb-6 tracking-wide text-base">"The Shallows" met en scène Nancy Adams (Blake Lively), une jeune surfeuse qui se rend sur une plage isolée au Mexique pour trouver du réconfort après la perte de sa mère. Alors qu'elle surfe seule, elle est attaquée par un grand requin blanc et se retrouve piégée sur un rocher à seulement 200 mètres du rivage. Blessée et isolée, Nancy doit utiliser toute son ingéniosité et sa détermination pour survivre face aux éléments naturels et à la menace constante du requin. Le film est un thriller intense sur la survie et la résilience face à une situation désespérée.</p>
+              <h5 class="swing w-fit pt-4 text-lg font-medium tracking-wider">
+                Synopsis
+              </h5>
+              <p class="pb-6 tracking-wide text-base">
+                "The Shallows" met en scène Nancy Adams (Blake Lively), une
+                jeune surfeuse qui se rend sur une plage isolée au Mexique pour
+                trouver du réconfort après la perte de sa mère. Alors qu'elle
+                surfe seule, elle est attaquée par un grand requin blanc et se
+                retrouve piégée sur un rocher à seulement 200 mètres du rivage.
+                Blessée et isolée, Nancy doit utiliser toute son ingéniosité et
+                sa détermination pour survivre face aux éléments naturels et à
+                la menace constante du requin. Le film est un thriller intense
+                sur la survie et la résilience face à une situation désespérée.
+              </p>
               <section class="flex flex-col">
-                <h5 class="font-medium text-base tracking-wider">Budget pour la création de ce film:</h5>
+                <h5 class="font-medium text-base tracking-wider">
+                  Budget pour la création de ce film:
+                </h5>
                 <div>
-                  <canvas id="budget-7" style="height: 120px; width: 220px;">
+                  <canvas id="budget-7" style="height: 120px; width: 220px">
                   </canvas>
-                  <script src="./assets/js/shallows.js"></script>
+                  <script>
+                    new RGraph.HProgress({
+                      id: 'budget-7',
+                      min: 0,
+                      max: 240,
+                      value: 17,
+                      options: {
+                          colors: ['#172554'],
+                          textSize: 14,
+                          corners: 'round',
+                          cornersRoundRadius: 5,
+                          labelsCount: 0,
+                          labelsInner: true,
+                          labelsInnerBorder: false,
+                          labelsInnerUnitsPost: ' M$',
+                          labelsInnerSize: 16,
+                          labelsInnerColor: '#dbeafe',
+                          labelsInnerBackgroundFill: '#172554',
+                          marginBottom: 60,
+                          marginLeft: 1,
+                          marginRight: 1, 
+                          marginTop: 20
+                      }
+                  }).draw();
+                  </script>
                 </div>
               </section>
             </div>
@@ -325,40 +1042,131 @@
               <h5 class="font-normal tracking-wider text-base">Sources</h5>
               <ul class="flex flex-col gap-2 text-sm underline">
                 <li>
-                  <a href="https://www.boxofficemojo.com/weekly/2016W27/?ref_=bo_wly_table_27" target="_blank">Box Office Mojo</a>  
+                  <a
+                    href="https://www.boxofficemojo.com/weekly/2016W27/?ref_=bo_wly_table_27"
+                    target="_blank"
+                    >Box Office Mojo</a
+                  >
                 </li>
-                <li><a href="https://www.imdb.com/title/tt4052882/?ref_=fn_al_tt_1" target="_blank">IMDB</a></li>
+                <li>
+                  <a
+                    href="https://www.imdb.com/title/tt4052882/?ref_=fn_al_tt_1"
+                    target="_blank"
+                    >IMDB</a
+                  >
+                </li>
               </ul>
             </section>
           </div>
         </li>
 
-        <li id="free-state" class="border-b border-blue-950 pb-12 flex flex-col text-blue-950">
-          <span class="heartBeat w-fit font-semibold py-2 text-blue-950 text-3xl">8.</span>
-          <h4 class="rubberBand font-medium text-2xl tracking-wider w-fit bg-blue-950 text-blue-100 px-2 py-1">Free State of Jones</h4>
+        <li
+          id="free-state"
+          class="border-b border-blue-950 pb-12 flex flex-col text-blue-950"
+        >
+          <span
+            class="heartBeat w-fit font-semibold py-2 text-blue-950 text-3xl"
+            >8.</span
+          >
+          <h4
+            class="rubberBand font-medium text-2xl tracking-wider w-fit bg-blue-950 text-blue-100 px-2 py-1"
+          >
+            Free State of Jones
+          </h4>
           <figure class="flex flex-col">
             <picture>
-              <img class="max-h-96 py-6" src="https://m.media-amazon.com/images/M/MV5BMTA4NTYyMTcwNTFeQTJeQWpwZ15BbWU4MDI0NTg0MDkx._V1_FMjpg_UX1000_.jpg" alt="Image de cover du film: Free State of Jones.">
+              <img
+                class="max-h-96 py-6"
+                src="https://m.media-amazon.com/images/M/MV5BMTA4NTYyMTcwNTFeQTJeQWpwZ15BbWU4MDI0NTg0MDkx._V1_FMjpg_UX1000_.jpg"
+                alt="Image de cover du film: Free State of Jones."
+              />
             </picture>
           </figure>
           <div class="flex flex-col gap-12 text-base">
-            <a class="pulse bg-blue-500 border border-blue-950 font-light rounded-md text-blue-100 text-base tracking-wide w-fit py-1 px-6" href="https://www.youtube.com/watch?v=3EMkxEKKSQI&ab_channel=STXfilms" target="_blank">Bande Annonce</a>
+            <a
+              class="pulse bg-blue-500 border border-blue-950 font-light rounded-md text-blue-100 text-base tracking-wide w-fit py-1 px-6"
+              href="https://www.youtube.com/watch?v=3EMkxEKKSQI&ab_channel=STXfilms"
+              target="_blank"
+              >Bande Annonce</a
+            >
             <div class="items-center grid gap-8">
               <i class="bounce">
-                <img class="py-2 w-20" src="https://docs-assets.developer.apple.com/published/8dc23d7e4b5301a3b82724b923eb0081/movie-rating-icons-united-states-4@2x.png" alt="Logo de classification de film 'restricted'.">
+                <img
+                  class="py-2 w-20"
+                  src="https://docs-assets.developer.apple.com/published/8dc23d7e4b5301a3b82724b923eb0081/movie-rating-icons-united-states-4@2x.png"
+                  alt="Logo de classification de film 'restricted'."
+                />
               </i>
               <p class="text-xl">Action, Biographie, Drame</p>
-              <div id="movieTime-8" style="height: 120px; width: 120px;" class="flip">
-                <script src="./assets/js/freestate.js"></script>
+              <div
+                id="movieTime-8"
+                style="height: 120px; width: 120px"
+                class="flip"
+              >
+                <script>
+                  horseshoe = new RGraph.SVG.Horseshoe({
+                    id: 'movieTime-8',
+                    min: 0,
+                    max: 200,
+                    value: 139,
+                    color : '#8e5ea2',
+                    options: {
+                        labelsCenterUnitsPost: ' min.',
+                        textSize: 14,
+                        width: 3,
+                        marginLeft: 0,
+                        marginBottom: 0
+                    }
+                }).grow();
+                </script>
               </div>
-              <h5 class="swing w-fit pt-4 text-lg font-medium tracking-wider">Synopsis</h5>
-              <p class="pb-6 tracking-wide text-base">"Free State of Jones" raconte l'histoire de Newton Knight (Matthew McConaughey), un fermier du Mississippi qui déserte l'armée confédérée pendant la guerre de Sécession. Révolté par l'injustice des politiques confédérées, il forme une alliance de déserteurs, d'esclaves en fuite et de fermiers pour mener une rébellion contre la Confédération. Ils déclarent un État libre dans le comté de Jones, où toutes les races sont égales. Le film suit leur lutte pour l'égalité et la justice pendant et après la guerre, explorant les défis de la Reconstruction et les débuts des droits civils des Afro-Américains.</p>
+              <h5 class="swing w-fit pt-4 text-lg font-medium tracking-wider">
+                Synopsis
+              </h5>
+              <p class="pb-6 tracking-wide text-base">
+                "Free State of Jones" raconte l'histoire de Newton Knight
+                (Matthew McConaughey), un fermier du Mississippi qui déserte
+                l'armée confédérée pendant la guerre de Sécession. Révolté par
+                l'injustice des politiques confédérées, il forme une alliance de
+                déserteurs, d'esclaves en fuite et de fermiers pour mener une
+                rébellion contre la Confédération. Ils déclarent un État libre
+                dans le comté de Jones, où toutes les races sont égales. Le film
+                suit leur lutte pour l'égalité et la justice pendant et après la
+                guerre, explorant les défis de la Reconstruction et les débuts
+                des droits civils des Afro-Américains.
+              </p>
               <section class="flex flex-col">
-                <h5 class="font-medium text-base tracking-wider">Budget pour la création de ce film:</h5>
+                <h5 class="font-medium text-base tracking-wider">
+                  Budget pour la création de ce film:
+                </h5>
                 <div>
-                  <canvas id="budget-8" style="height: 120px; width: 220px;">
+                  <canvas id="budget-8" style="height: 120px; width: 220px">
                   </canvas>
-                  <script src="./assets/js/freestate.js"></script>
+                  <script>
+                    new RGraph.HProgress({
+                      id: 'budget-8',
+                      min: 0,
+                      max: 240,
+                      value: 50,
+                      options: {
+                          colors: ['#172554'],
+                          textSize: 14,
+                          corners: 'round',
+                          cornersRoundRadius: 5,
+                          labelsCount: 0,
+                          labelsInner: true,
+                          labelsInnerBorder: false,
+                          labelsInnerUnitsPost: ' M$',
+                          labelsInnerSize: 16,
+                          labelsInnerColor: '#dbeafe',
+                          labelsInnerBackgroundFill: '#172554',
+                          marginBottom: 60,
+                          marginLeft: 1,
+                          marginRight: 1, 
+                          marginTop: 20
+                      }
+                  }).draw();
+                  </script>
                 </div>
               </section>
             </div>
@@ -366,40 +1174,132 @@
               <h5 class="font-normal tracking-wider text-base">Sources</h5>
               <ul class="flex flex-col gap-2 text-sm underline">
                 <li>
-                  <a href="https://www.boxofficemojo.com/weekly/2016W27/?ref_=bo_wly_table_27" target="_blank">Box Office Mojo</a>  
+                  <a
+                    href="https://www.boxofficemojo.com/weekly/2016W27/?ref_=bo_wly_table_27"
+                    target="_blank"
+                    >Box Office Mojo</a
+                  >
                 </li>
-                <li><a href="https://www.imdb.com/title/tt1124037/?ref_=ttpl_ov_i" target="_blank">IMDB</a></li>
+                <li>
+                  <a
+                    href="https://www.imdb.com/title/tt1124037/?ref_=ttpl_ov_i"
+                    target="_blank"
+                    >IMDB</a
+                  >
+                </li>
               </ul>
             </section>
           </div>
         </li>
 
-        <li id="conjuring" class="border-b border-blue-950 pb-12 flex flex-col text-blue-950">
-          <span class="heartBeat w-fit font-semibold py-2 text-blue-950 text-3xl">9.</span>
-          <h4 class="rubberBand font-medium text-2xl tracking-wider w-fit bg-blue-950 text-blue-100 px-2 py-1">The Conjuring 2</h4>
+        <li
+          id="conjuring"
+          class="border-b border-blue-950 pb-12 flex flex-col text-blue-950"
+        >
+          <span
+            class="heartBeat w-fit font-semibold py-2 text-blue-950 text-3xl"
+            >9.</span
+          >
+          <h4
+            class="rubberBand font-medium text-2xl tracking-wider w-fit bg-blue-950 text-blue-100 px-2 py-1"
+          >
+            The Conjuring 2
+          </h4>
           <figure class="flex flex-col">
             <picture>
-              <img class="max-h-96 py-6" src="https://m.media-amazon.com/images/M/MV5BZjU5OWVlN2EtODNlYy00MjhhLWI0MDUtMTA3MmQ5MGMwYTZmXkEyXkFqcGdeQXVyNjE5MTM4MzY@._V1_.jpg" alt="Image de cover du film: The Conjuring 2.">
+              <img
+                class="max-h-96 py-6"
+                src="https://m.media-amazon.com/images/M/MV5BZjU5OWVlN2EtODNlYy00MjhhLWI0MDUtMTA3MmQ5MGMwYTZmXkEyXkFqcGdeQXVyNjE5MTM4MzY@._V1_.jpg"
+                alt="Image de cover du film: The Conjuring 2."
+              />
             </picture>
           </figure>
           <div class="flex flex-col gap-12 text-base">
-            <a class="pulse bg-blue-500 border border-blue-950 font-light rounded-md text-blue-100 text-base tracking-wide w-fit py-1 px-6" href="https://www.youtube.com/watch?v=VFsmuRPClr4&ab_channel=WarnerBros.Pictures" target="_blank">Bande Annonce</a>
+            <a
+              class="pulse bg-blue-500 border border-blue-950 font-light rounded-md text-blue-100 text-base tracking-wide w-fit py-1 px-6"
+              href="https://www.youtube.com/watch?v=VFsmuRPClr4&ab_channel=WarnerBros.Pictures"
+              target="_blank"
+              >Bande Annonce</a
+            >
             <div class="items-center grid gap-8">
               <i class="bounce">
-                <img class="py-2 w-20" src="https://docs-assets.developer.apple.com/published/8dc23d7e4b5301a3b82724b923eb0081/movie-rating-icons-united-states-4@2x.png" alt="Logo de classification de film 'restricted'.">
+                <img
+                  class="py-2 w-20"
+                  src="https://docs-assets.developer.apple.com/published/8dc23d7e4b5301a3b82724b923eb0081/movie-rating-icons-united-states-4@2x.png"
+                  alt="Logo de classification de film 'restricted'."
+                />
               </i>
               <p class="text-xl">Horreur, Policier, Surnaturel</p>
-              <div id="movieTime-9" style="height: 120px; width: 120px;" class="flip">
-                <script src="./assets/js/conjuring.js"></script>
+              <div
+                id="movieTime-9"
+                style="height: 120px; width: 120px"
+                class="flip"
+              >
+                <script>
+                  horseshoe = new RGraph.SVG.Horseshoe({
+                    id: 'movieTime-9',
+                    min: 0,
+                    max: 200,
+                    value: 134,
+                    color : '#8e5ea2',
+                    options: {
+                        labelsCenterUnitsPost: ' min.',
+                        textSize: 14,
+                        width: 3,
+                        marginLeft: 0,
+                        marginBottom: 0
+                    }
+                }).grow();
+                </script>
               </div>
-              <h5 class="swing w-fit pt-4 text-lg font-medium tracking-wider">Synopsis</h5>
-              <p class="pb-6 tracking-wide text-base">"The Conjuring 2" suit les enquêteurs paranormaux Ed et Lorraine Warren (Patrick Wilson et Vera Farmiga) qui se rendent en Angleterre pour aider une famille terrorisée par une entité maléfique dans leur maison. Située à Enfield en 1977, l'histoire se concentre sur Peggy Hodgson et ses quatre enfants, particulièrement sa fille Janet, qui est la cible principale des manifestations surnaturelles. Tandis que les Warrens enquêtent, ils découvrent des forces démoniaques puissantes et tentent de sauver la famille. Le film est inspiré de faits réels, mettant en lumière un des cas les plus célèbres et effrayants des Warrens.</p>
+              <h5 class="swing w-fit pt-4 text-lg font-medium tracking-wider">
+                Synopsis
+              </h5>
+              <p class="pb-6 tracking-wide text-base">
+                "The Conjuring 2" suit les enquêteurs paranormaux Ed et Lorraine
+                Warren (Patrick Wilson et Vera Farmiga) qui se rendent en
+                Angleterre pour aider une famille terrorisée par une entité
+                maléfique dans leur maison. Située à Enfield en 1977, l'histoire
+                se concentre sur Peggy Hodgson et ses quatre enfants,
+                particulièrement sa fille Janet, qui est la cible principale des
+                manifestations surnaturelles. Tandis que les Warrens enquêtent,
+                ils découvrent des forces démoniaques puissantes et tentent de
+                sauver la famille. Le film est inspiré de faits réels, mettant
+                en lumière un des cas les plus célèbres et effrayants des
+                Warrens.
+              </p>
               <section class="flex flex-col">
-                <h5 class="font-medium text-base tracking-wider">Budget pour la création de ce film:</h5>
+                <h5 class="font-medium text-base tracking-wider">
+                  Budget pour la création de ce film:
+                </h5>
                 <div>
-                  <canvas id="budget-9" style="height: 120px; width: 220px;">
+                  <canvas id="budget-9" style="height: 120px; width: 220px">
                   </canvas>
-                  <script src="./assets/js/conjuring.js"></script>
+                  <script>
+                    new RGraph.HProgress({
+                      id: 'budget-9',
+                      min: 0,
+                      max: 240,
+                      value: 40,
+                      options: {
+                          colors: ['#172554'],
+                          textSize: 14,
+                          corners: 'round',
+                          cornersRoundRadius: 5,
+                          labelsCount: 0,
+                          labelsInner: true,
+                          labelsInnerBorder: false,
+                          labelsInnerUnitsPost: ' M$',
+                          labelsInnerSize: 16,
+                          labelsInnerColor: '#dbeafe',
+                          labelsInnerBackgroundFill: '#172554',
+                          marginBottom: 60,
+                          marginLeft: 1,
+                          marginRight: 1, 
+                          marginTop: 20
+                      }
+                  }).draw();
+                  </script>
                 </div>
               </section>
             </div>
@@ -407,66 +1307,185 @@
               <h5 class="font-normal tracking-wider text-base">Sources</h5>
               <ul class="flex flex-col gap-2 text-sm underline">
                 <li>
-                  <a href="https://www.boxofficemojo.com/weekly/2016W27/?ref_=bo_wly_table_27" target="_blank">Box Office Mojo</a>  
+                  <a
+                    href="https://www.boxofficemojo.com/weekly/2016W27/?ref_=bo_wly_table_27"
+                    target="_blank"
+                    >Box Office Mojo</a
+                  >
                 </li>
-                <li><a href="https://www.imdb.com/title/tt3065204/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_the%2520conjuring%25202" target="_blank">IMDB</a></li>
+                <li>
+                  <a
+                    href="https://www.imdb.com/title/tt3065204/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_the%2520conjuring%25202"
+                    target="_blank"
+                    >IMDB</a
+                  >
+                </li>
               </ul>
             </section>
           </div>
         </li>
 
-        <li id="now-you-see-me" class="border-b border-blue-950 pb-12 flex flex-col text-blue-950">
-          <span class="heartBeat w-fit font-semibold py-2 text-blur-950 text-3xl">10.</span>
-          <h4 class="rubberBand font-medium text-2xl tracking-wider w-fit bg-blue-950 text-blue-100 px-2 py-1">Now You See Me 2</h4>
+        <li
+          id="now-you-see-me"
+          class="border-b border-blue-950 pb-12 flex flex-col text-blue-950"
+        >
+          <span
+            class="heartBeat w-fit font-semibold py-2 text-blur-950 text-3xl"
+            >10.</span
+          >
+          <h4
+            class="rubberBand font-medium text-2xl tracking-wider w-fit bg-blue-950 text-blue-100 px-2 py-1"
+          >
+            Now You See Me 2
+          </h4>
           <figure class="flex flex-col">
             <picture>
-              <img class="max-h-96 py-6" src="https://m.media-amazon.com/images/M/MV5BYjhlNDljNTgtZjc4My00NmZmLTk2YzAtYWE5MDYwYjM4MTkzXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg" alt="Image de cover du film: Now You See Me 2.">
+              <img
+                class="max-h-96 py-6"
+                src="https://m.media-amazon.com/images/M/MV5BYjhlNDljNTgtZjc4My00NmZmLTk2YzAtYWE5MDYwYjM4MTkzXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg"
+                alt="Image de cover du film: Now You See Me 2."
+              />
             </picture>
           </figure>
           <div class="flex flex-col gap-12 text-base">
-            <a class="pulse bg-blue-500 border border-blue-950 font-light rounded-md text-blue-100 text-base tracking-wide w-fit py-1 px-6" href="https://www.youtube.com/watch?v=4I8rVcSQbic&t=36s&ab_channel=RottenTomatoesTrailers" target="_blank">Bande Annonce</a>
+            <a
+              class="pulse bg-blue-500 border border-blue-950 font-light rounded-md text-blue-100 text-base tracking-wide w-fit py-1 px-6"
+              href="https://www.youtube.com/watch?v=4I8rVcSQbic&t=36s&ab_channel=RottenTomatoesTrailers"
+              target="_blank"
+              >Bande Annonce</a
+            >
             <div class="items-center grid gap-8">
               <i class="bounce">
-                <img class="py-2 w-20" src="https://docs-assets.developer.apple.com/published/96199b6dfb4d979334420425832279f1/movie-rating-icons-united-states-3@2x.png" alt="Logo de classification de film 'pg-13'.">
+                <img
+                  class="py-2 w-20"
+                  src="https://docs-assets.developer.apple.com/published/96199b6dfb4d979334420425832279f1/movie-rating-icons-united-states-3@2x.png"
+                  alt="Logo de classification de film 'pg-13'."
+                />
               </i>
               <p class="text-xl">Action, Aventure, Comédie</p>
-              <div id="movieTime-10" style="height: 120px; width: 120px;" class="flip">
-                <script src="./assets/js/seeme.js"></script>
+              <div
+                id="movieTime-10"
+                style="height: 120px; width: 120px"
+                class="flip"
+              >
+                <script>
+                  horseshoe = new RGraph.SVG.Horseshoe({
+                    id: 'movieTime-10',
+                    min: 0,
+                    max: 200,
+                    value: 129,
+                    color : '#8e5ea2',
+                    options: {
+                        labelsCenterUnitsPost: ' min.',
+                        textSize: 14,
+                        width: 3,
+                        marginLeft: 0,
+                        marginBottom: 0
+                    }
+                }).grow();
+                </script>
               </div>
-              <h5 class="swing w-fit pt-4 text-lg font-medium tracking-wider">Synopsis</h5>
-              <p class="pb-6 tracking-wide text-base">"Now You See Me 2" suit les Quatre Cavaliers, un groupe de magiciens dirigé par J. Daniel Atlas (Jesse Eisenberg). Un an après avoir déjoué le FBI et gagné l'admiration du public avec leurs tours de magie, ils se retrouvent forcés de travailler pour un magnat de la technologie nommé Walter Mabry (Daniel Radcliffe). Mabry les contraint à voler un puissant dispositif qui peut contrôler tous les ordinateurs du monde. Tandis qu'ils élaborent un plan pour déjouer Mabry, ils doivent également prouver leur innocence et révéler le véritable maître du complot. Le film mêle action, magie et suspense dans une course effrénée.</p>
+              <h5 class="swing w-fit pt-4 text-lg font-medium tracking-wider">
+                Synopsis
+              </h5>
+              <p class="pb-6 tracking-wide text-base">
+                "Now You See Me 2" suit les Quatre Cavaliers, un groupe de
+                magiciens dirigé par J. Daniel Atlas (Jesse Eisenberg). Un an
+                après avoir déjoué le FBI et gagné l'admiration du public avec
+                leurs tours de magie, ils se retrouvent forcés de travailler
+                pour un magnat de la technologie nommé Walter Mabry (Daniel
+                Radcliffe). Mabry les contraint à voler un puissant dispositif
+                qui peut contrôler tous les ordinateurs du monde. Tandis qu'ils
+                élaborent un plan pour déjouer Mabry, ils doivent également
+                prouver leur innocence et révéler le véritable maître du
+                complot. Le film mêle action, magie et suspense dans une course
+                effrénée.
+              </p>
               <section>
-                <h5 class="font-medium text-base tracking-wider">Budget pour la création de ce film:</h5>
+                <h5 class="font-medium text-base tracking-wider">
+                  Budget pour la création de ce film:
+                </h5>
                 <div>
-                  <canvas id="budget-10" style="height: 120px; width: 220px;">
+                  <canvas id="budget-10" style="height: 120px; width: 220px">
                   </canvas>
-                  <script src="./assets/js/seeme.js"></script>
+                  <script>
+                    new RGraph.HProgress({
+                      id: 'budget-10',
+                      min: 0,
+                      max: 240,
+                      value: 120,
+                      options: {
+                          colors: ['#172554'],
+                          textSize: 14,
+                          corners: 'round',
+                          cornersRoundRadius: 5,
+                          labelsCount: 0,
+                          labelsInner: true,
+                          labelsInnerBorder: false,
+                          labelsInnerUnitsPost: ' M$',
+                          labelsInnerSize: 16,
+                          labelsInnerColor: '#dbeafe',
+                          labelsInnerBackgroundFill: '#172554',
+                          marginBottom: 60,
+                          marginLeft: 1,
+                          marginRight: 1, 
+                          marginTop: 20
+                      }
+                  }).draw();
+                  </script>
                 </div>
               </section>
-              
             </div>
             <section class="shakeX flex flex-col gap-2 px-4">
               <h5 class="font-normal tracking-wider text-base">Sources</h5>
               <ul class="flex flex-col gap-2 text-sm underline">
                 <li>
-                  <a href="https://www.boxofficemojo.com/weekly/2016W27/?ref_=bo_wly_table_27" target="_blank">Box Office Mojo</a>  
+                  <a
+                    href="https://www.boxofficemojo.com/weekly/2016W27/?ref_=bo_wly_table_27"
+                    target="_blank"
+                    >Box Office Mojo</a
+                  >
                 </li>
-                <li><a href="https://www.imdb.com/title/tt3110958/?ref_=fn_al_tt_1" target="_blank">IMDB</a></li>
+                <li>
+                  <a
+                    href="https://www.imdb.com/title/tt3110958/?ref_=fn_al_tt_1"
+                    target="_blank"
+                    >IMDB</a
+                  >
+                </li>
               </ul>
             </section>
           </div>
         </li>
       </ul>
     </main>
-    <footer class="bg-blue-950 flex flex-col px-6 py-36 sticky bottom-0 left-0 w-full z-0">
-      <div class="text-blue-100 flex gap-2 md:gap-6 justify-between max-w-7xl self-center w-full">
+    <footer
+      class="bg-blue-950 flex flex-col px-6 py-36 sticky bottom-0 left-0 w-full z-0"
+    >
+      <div
+        class="text-blue-100 flex gap-2 md:gap-6 justify-between max-w-7xl self-center w-full"
+      >
         <i class="flash">
-          <svg xmlns="http://www.w3.org/2000/svg" height="80px" viewBox="0 -960 960 960" width="80px" fill="#fff"><path d="M768.67-670.67q14.73 0 24.7-10.5 9.96-10.5 9.96-24.16 0-14.74-9.96-24.7-9.97-9.97-24.7-9.97-14.74 0-24.7 9.97-9.97 9.96-9.97 24.7 0 13.66 9.97 24.16 9.96 10.5 24.7 10.5Zm-168 0q14.73 0 24.7-10.5 9.96-10.5 9.96-24.16 0-14.74-9.96-24.7-9.97-9.97-24.7-9.97-14.74 0-24.7 9.97-9.97 9.96-9.97 24.7 0 13.66 9.97 24.16 9.96 10.5 24.7 10.5ZM579.33-528h209.34q0-33.67-32.17-52.83Q724.33-600 684-600t-72.5 19.17q-32.17 19.16-32.17 52.83ZM276-80.67q-98.33 0-167.17-70-68.83-70-68.83-166V-588h472v271.33q0 96-68.83 166-68.84 70-167.17 70Zm.11-66.66q69.89 0 119.56-50.67 49.66-50.67 49.66-118.67v-204.66H106.67v204.66q0 68 49.77 118.67t119.67 50.67ZM684-372.67q-31.33 0-61.17-7.5Q593-387.67 566-402v-76q24.67 15.67 54.83 27.17 30.17 11.5 63.17 11.5 69.85 0 119.59-47.67 49.74-47.67 49.74-115.67v-210.66H512.67v172.66H446V-880h474v277.33q0 95.34-68.83 162.67-68.84 67.33-167.17 67.33ZM192.67-384q14.73 0 24.7-9.97 9.96-9.96 9.96-24.7 0-14.73-9.96-24.7-9.97-9.96-24.7-9.96-14.74 0-24.7 9.96-9.97 9.97-9.97 24.7 0 14.74 9.97 24.7 9.96 9.97 24.7 9.97Zm168.66 0q14.74 0 24.7-9.97 9.97-9.96 9.97-24.7 0-14.73-9.97-24.7-9.96-9.96-24.7-9.96-14.73 0-24.7 9.96-9.96 9.97-9.96 24.7 0 14.74 9.96 24.7 9.97 9.97 24.7 9.97ZM278-235.33q40.33 0 72.5-19.17t32.17-52.83H173.33q0 33.66 32.17 52.83t72.5 19.17Zm-1.33-102Zm406.66-286Z"/></svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="80px"
+            viewBox="0 -960 960 960"
+            width="80px"
+            fill="#fff"
+          >
+            <path
+              d="M768.67-670.67q14.73 0 24.7-10.5 9.96-10.5 9.96-24.16 0-14.74-9.96-24.7-9.97-9.97-24.7-9.97-14.74 0-24.7 9.97-9.97 9.96-9.97 24.7 0 13.66 9.97 24.16 9.96 10.5 24.7 10.5Zm-168 0q14.73 0 24.7-10.5 9.96-10.5 9.96-24.16 0-14.74-9.96-24.7-9.97-9.97-24.7-9.97-14.74 0-24.7 9.97-9.97 9.96-9.97 24.7 0 13.66 9.97 24.16 9.96 10.5 24.7 10.5ZM579.33-528h209.34q0-33.67-32.17-52.83Q724.33-600 684-600t-72.5 19.17q-32.17 19.16-32.17 52.83ZM276-80.67q-98.33 0-167.17-70-68.83-70-68.83-166V-588h472v271.33q0 96-68.83 166-68.84 70-167.17 70Zm.11-66.66q69.89 0 119.56-50.67 49.66-50.67 49.66-118.67v-204.66H106.67v204.66q0 68 49.77 118.67t119.67 50.67ZM684-372.67q-31.33 0-61.17-7.5Q593-387.67 566-402v-76q24.67 15.67 54.83 27.17 30.17 11.5 63.17 11.5 69.85 0 119.59-47.67 49.74-47.67 49.74-115.67v-210.66H512.67v172.66H446V-880h474v277.33q0 95.34-68.83 162.67-68.84 67.33-167.17 67.33ZM192.67-384q14.73 0 24.7-9.97 9.96-9.96 9.96-24.7 0-14.73-9.96-24.7-9.97-9.96-24.7-9.96-14.74 0-24.7 9.96-9.97 9.97-9.97 24.7 0 14.74 9.97 24.7 9.96 9.97 24.7 9.97Zm168.66 0q14.74 0 24.7-9.97 9.97-9.96 9.97-24.7 0-14.73-9.97-24.7-9.96-9.96-24.7-9.96-14.73 0-24.7 9.96-9.96 9.97-9.96 24.7 0 14.74 9.96 24.7 9.97 9.97 24.7 9.97ZM278-235.33q40.33 0 72.5-19.17t32.17-52.83H173.33q0 33.66 32.17 52.83t72.5 19.17Zm-1.33-102Zm406.66-286Z"
+            />
+          </svg>
         </i>
         <div class="flash flex-col gap-3 text-right">
           <p class="font-light text-lg tracking-widest">Alexis Turcotte</p>
-          <p class="font-thin w-56 text-right">PMI. Cours de Production d'interfaces interactives.</p>
-          <p class="font-thin"><time datetime="2024-07-05">05 juillet 2024</time></p>
+          <p class="font-thin w-56 text-right">
+            PMI. Cours de Production d'interfaces interactives.
+          </p>
+          <p class="font-thin">
+            <time datetime="2024-07-05">05 juillet 2024</time>
+          </p>
         </div>
       </div>
     </footer>
